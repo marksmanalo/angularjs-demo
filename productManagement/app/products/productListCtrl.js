@@ -30,5 +30,11 @@
         "imageUrl": "https://openclipart.org/image/300px/svg_to_png/14358/mystica-Hammer.png"      
       }
       ];
+
+      vm.showImage = false;
+
+      vm.toggleImage = function () {
+        vm.showImage = !vm.showImage;
+      }
   }
 } ());
