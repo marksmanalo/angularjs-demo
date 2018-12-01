@@ -1,5 +1,6 @@
 // iffe
 (function () {
-  var app = angular.module("productManagement", ["common.services"]);
+  var app = angular.module("productManagement", ["common.services", 
+    "productResourceMock"]);
 }());
 
